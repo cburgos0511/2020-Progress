@@ -1,0 +1,64 @@
+:root {
+  --bright: #000;
+  --dark: #fff;
+}
+
+* {
+  color: var(--bright);
+  background: var(--dark);
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.container h1 {
+  text-align: center;
+}
+
+.wrap {
+  margin: 1rem;
+}
+.title {
+  text-align: left;
+}
+
+.p-bar {
+  height: 20px;
+  width: 100%;
+  border: 1px solid var(--bright);
+}
+
+#year-prog {
+  background: var(--bright);
+  height: 20px;
+}
+
+#months-prog {
+  background: var(--bright);
+  height: 20px;
+}
+#hours-prog {
+  background: var(--bright);
+  height: 20px;
+}
+#minutes-prog {
+  background: var(--bright);
+  height: 20px;
+}
+#day-prog {
+  background: var(--bright);
+  height: 20px;
+}
+
+#settings {
+  position: absolute;
+  top: 1vh;
+  right: 2vh;
+  font-size: 3vh;
+  color: var(--bright);
+  cursor: pointer;
+  transition: right 0.2s;
+}
